@@ -1,0 +1,102 @@
+.btn1{
+    background-color:  #75BF7A;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 35px;
+    color: #fff;
+    font-weight: 500;
+    
+}
+.navbar-nav{
+    text-align: center;
+}
+.sild-content>div>h1{
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 1;
+    color: black;
+}
+.sild-content>div>span{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1;
+    color:  #9E9DA2;
+    ;
+
+}
+
+
+.sild-content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sild{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.sild>img{
+    width: 70%;
+}
+.sild-btn{
+    margin-top: 40px;
+}
+.bar{
+    background-color: #75BF7A;
+    height: 100%;
+    margin-top: 50px;
+}
+.barp>h6{
+    width: 246px;
+    height: 56px;
+    margin-top: 25px;
+    margin-left: 100px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22px;
+
+}
+input[ type="number" ]{
+    width: 300px;
+    height: 30px;
+    color: #fff;
+    line-height: 20px;
+    
+}
+::placeholder{
+    color:#dadada;
+    font-size: 14px;
+    margin-right: 10px;
+    text-align: center;
+}
+.btn2{
+    background-color: #000;
+    border-radius: 3px;
+   color: #fff;
+   padding: 3px 30px;
+   
+    
+    
+}
+.barbtn{
+    display: flex;
+    justify-content: center;
+    padding: 28px 35px;
+}
+
+@media only screen and (max-width:600px){
+    .sild-content{
+        text-align: center;
+
+    }
+    .theme-silde{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .barp{
+        text-align: center;
+    }
+}
